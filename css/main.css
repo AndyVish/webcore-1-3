@@ -255,7 +255,8 @@ body {
 .services__schedule
 {
 	width: 100%;
-	height: 176px;
+	max-width: 360px;
+	max-height: 176px;
 }
 
 
@@ -331,6 +332,13 @@ body {
 	.readmore__content--mod {
 		max-height: 320px;		
 	}	
+
+	.services__schedule
+{
+	width: 100%;
+	max-width: 360px;
+	max-height: 208px;
+}
 }
 
 
@@ -473,4 +481,10 @@ body {
 		margin-right: 0;
 	}
 	
+	.services__schedule
+	{
+		width: 100%;
+		max-width: 531px;
+		max-height: 307px;
+	}
 }
