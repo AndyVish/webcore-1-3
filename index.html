@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="header__navbar">
+                
+                <div class="header__left-side">
+                <button class="header__btn header__btn--burger"><img src="./img/decor/burger.svg" alt="кнопка меню"> </button>
+                <div class="header__strip header__strip--first"></div>
+                
+                    <button class="header__btn header__btn--logo"><img src="./img/decor/group.svg" alt="логотип"></button>
+                    <button class="header__btn header__btn--search"><img src="./img/decor/search.svg" alt="логотип"></button>
+                </div>
+                
+
+                <div class="header__right-side">
+                    <div class="header__contacts">
+                        <button type="button" class="header__btn"><img src="img/decor/call.svg" alt="логотип"></button>
+                        <button class="header__btn"><img src="img/decor/chat.svg" alt="логотип"></button>
+                        <button class="header__btn header__btn--check"><img src="img/decor/profile.svg" alt="логотип"></button>
+                    </div>
+
+                    
+                    <div class="additional-services">
+                        <div class="header__strip header__strip--second"> </div>
+
+                        <div class="additional-item">
+                            <label for="btn-repair"><span class="header__span">Оставить заявку</span>
+                            </label>
+                                                
+                            <button class="header__btn" type="button" id="btn-repair" >                           
+                                <img src="img/decor/repair.svg" alt="кнопка ремонта">
+                            </button>                        
+                        </div>    
+                        
+                        <div class="additional-item">
+                            <label for="btn-check">
+                                <span class="header__span">Статус ремонта</span>
+                            </label>    
+                            <button class="header__btn header__btn--check" type="button" id="btn-check">
+                                <img src="img/decor/checkstatus.svg" alt="кнопка статус заказа">
+                            </button>                            
+                        </div>
+
+                    </div>
+            </div>
+
+            </div>
+        </header>
+        <main class="main">
+
+            <section class="services">
+                <h1 class="services__header">Услуги и&nbsp;сервисы</h1>
+                <div class="nav-scroller">
+                    <nav class="nav-scroller__items">
+                        <a class="nav-scroller__item nav-scroller__item_active" href="#">Ремонтируемые бренды</a>
+                        <a class="nav-scroller__item" href="#">Дополнительные услуги</a>
+                        <a class="nav-scroller__item" href="#">Цены на услуги</a>
+                        <a class="nav-scroller__item" href="#">Адреса сервисных центров</a>
+                        <a class="nav-scroller__item" href="#">Специальные цены</a>
+                        <a class="nav-scroller__item" href="#">Отзывы</a>
+                    </nav>
+                </div>
+            </section>
+            <section class="brief">
+                <div class="readmore">
+                    <div class="readmore__content" id="con-mod">
+                        <p class="readmore__text">
+                            
+                            Мы&nbsp;являемся авторизованным сервисным центром по ремонту техники Dell. Только у&nbsp;нас вы&nbsp;можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                        </p>
+    
+                        <p>                           
+                            Мы&nbsp;успешно работаем с&nbsp;1992 года и&nbsp;заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы&nbsp;гордимся тем, что к&nbsp;нам обращаются по&nbsp;рекомендациям&nbsp;и, в&nbsp;свою очередь, советуют нас родным и&nbsp;близким.
+                        </p>
+                        
+                    </div>
+                    <div class="readmore__controlls">
+                        <input type="checkbox" id="readmore__input">
+                        <label for="readmore__input" class="readmore__label">
+                            <img class="readmore__img"src="img/decor/expand.svg" alt="Читать далее"> 
+                            <span class="readmore__span">Читать далее</span></label>
+                    </div>
+                </div>
+                
+                <div class="b-picture">
+                    <img src="img/content/name.jpg" alt="название компании" class="services__schedule">
+                </div>
+
+            </section>
+            <!-- <section class="list-brands block">
+                list-brands
+            </section>
+
+            <section class="devices block">
+                devices
+            </section> -->
+        </main>
+    </div>
+  
+</body>
+<script src="./js/readmore.js"></script>
+</html>
